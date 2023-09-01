@@ -21,7 +21,7 @@ type App struct {
 	WorkingDir string
 	Process    string
 
-	logfile *os.File
+	// logfile *os.File
 	config  *Config
 }
 
